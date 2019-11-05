@@ -15,7 +15,7 @@ public class PasswordResourceTest {
           .when().get("/api/hello")
           .then()
              .statusCode(200)
-             .body(is("hello"));
+             .body(is("Hello World"));
     }
 
 }
