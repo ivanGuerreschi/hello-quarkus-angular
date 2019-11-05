@@ -11,7 +11,7 @@ import { take } from 'rxjs/operators';
   styles: []
 })
 export class AppComponent {
-  title = 'webapp';
+  title = 'Passwords Manager';
 }
 
 @Component({
@@ -50,7 +50,6 @@ export class OtherComponent {
   template: `
     In <b>rest</b> component. <a [routerLink]="['/']">Default</a><br>
     Message was: {{msg$ | async}}
-	<br>SEE THE CHANGE IN ACTION
   `,
   styles: []
 })
